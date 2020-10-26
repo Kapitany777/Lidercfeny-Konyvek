@@ -5,9 +5,25 @@ body
     font-family: Arial, sans-serif;
 }
 
+div#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+div.book
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 h1
 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 a
