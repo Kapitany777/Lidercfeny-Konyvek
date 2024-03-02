@@ -33,18 +33,21 @@ img.bookimage {
     border: 2px solid black;
 }
 
-h2
-{
+h2 {
     font-size: 26px;
 }
 
-p.links {
-    margin: 20px;
+ul.links {
+    list-style-type: none;
+}
+
+li {
+    line-height: 200%;
 }
 
 a {
     color: #000000;
-    line-height: 180%;
+    margin-left: 10px;
 }
 
 footer {
