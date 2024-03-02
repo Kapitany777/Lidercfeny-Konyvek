@@ -1,33 +1,58 @@
-body
-{
-    background-color: #000000;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-div#container
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
+body {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Merriweather, Verdana, Arial, sans-serif;
+    margin: 0px auto;
     width: 80%;
 }
 
-div.book
-{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
+header {
+    background-color: #e0e0e0;
+    padding: 20px 50px;
 }
 
-h1
+h1 {
+    font-size: 32px;
+}
+
+div.book {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    clear: both;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+img.bookimage {
+    margin: 10px 20px 20px 20px;
+    padding: 2px;
+    float: left;
+    border: 2px solid black;
+}
+
+h2
 {
     font-size: 26px;
 }
 
-a
-{
-    color: #ffffff;
+p.links {
+    margin: 20px;
+}
+
+a {
+    color: #000000;
     line-height: 180%;
+}
+
+footer {
+    background-color: #e0e0e0;
+    padding: 20px;
+    clear: both;
+}
+
+footer span.divider {
+    margin: 0px 8px 0px 8px;
 }
